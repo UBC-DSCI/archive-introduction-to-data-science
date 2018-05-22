@@ -1,0 +1,25 @@
+# Regression {#chapter9}
+
+## Overview
+
+This week will introduce the problem of finding and estimating/approximating the relationship between a response variable of interest and a group of potential explanatory variables. The focus will be on prediction, relying on graphical tools to help the students "discover" simple non-parametric regression estimators (e.g. nearest neighbours, maybe kernel regression and/or regression trees). The prediction properties of these estimators will be explored using cross-validation.
+
+## Learning Objectives
+
+* Placeholder
+
+## Dataset Ideas
+
+[UCI Regression Datasets](https://archive.ics.uci.edu/ml/datasets.html?task=reg)
+
+[Conditional Release (Decisions) by Parole Board of Canada](http://open.canada.ca/en/search/inventory?field_keywords_value=&field_inventory_organization_tid=1720&items_per_page=10). Students could investigate factors affecting parole hearing decisions. Data from one year (FY 2015-2016) contains ~22,000 rows and 19 columns. Factors include:
+
+* **Final Decision**
+* Decision Month
+* Review Type
+* Decision Type
+* Sentence Type
+* Jurisdiction
+* Gender
+* Race
+* Major Offence Group

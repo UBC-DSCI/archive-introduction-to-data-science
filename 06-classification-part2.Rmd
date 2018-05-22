@@ -1,0 +1,18 @@
+# Classification, continued {#chapter7}
+
+## Overview
+
+Metrics for classification accuracy; cross-validation to choose the number of neighbours; scaling of variables and other practical considerations.
+
+## Learning Objectives
+
+* Describe what a test data set is and how it is used in classification.
+* Using R, evaluate classification accuracy using a test data set and appropriate metrics.
+* Using R, execute cross validation in R to choose the number of neighbours.
+* Identify when it is necessary to scale variables before classification and do this using R
+* In a dataset with > 2 attributes, perform k-nearest neighbour classification in R using caret::train(method = "knn", ...) to predict the class of a test dataset.
+* Describe advantages and disadvantages of the k-nearest neighbour classification algorithm.
+
+## Data set
+
+Keep working with the Wisconsin Breast Cancer data set.
