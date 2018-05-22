@@ -1,9 +1,0 @@
-# Regression, continued {#chapter10}
-
-## Overview
-
-This week will focus on the distinction between goodness of fit and prediction properties (namely MSE vs MSPE). Again, based on an example (but this time higher-dimensional) we will compare the predictions obtained from highly adaptive but variable/unstable methods (e.g. nearest neighbours, large regression trees) with those from more restricted but stable ones (e.g. linear models). The interpretative advantage of linear models will be discussed as well.
-
-## Learning Objectives
-
-* Placeholder

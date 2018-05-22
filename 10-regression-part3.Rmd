@@ -1,9 +1,0 @@
-# Regression, continued some more... {#chapter11}
-
-## Overview
-
-This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for a bivariate dataset. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference, as per STAT 200 or a similar course.
-
-## Learning Objectives
-
-* Placeholder
