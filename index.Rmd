@@ -1,5 +1,5 @@
 --- 
-title: "Intro to Data Science"
+title: "Introduction to Data Science"
 author:
 - Tiffany Timbers
 - Matías Salibián-Barrera
@@ -13,7 +13,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: timberst/DSCI_100_dev
+github-repo: UBC-DSCI/introduction-to-data-science
 description: "This is an open source textbook for teaching Introductory Data Science."
 ---
 
