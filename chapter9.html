@@ -29,7 +29,7 @@
 <meta name="author" content="Samuel Hinshaw">
 
 
-<meta name="date" content="2018-05-22">
+<meta name="date" content="2018-05-31">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -152,7 +152,6 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="9" data-path="chapter9.html"><a href="chapter9.html"><i class="fa fa-check"></i><b>9</b> Regression</a><ul>
 <li class="chapter" data-level="9.1" data-path="chapter9.html"><a href="chapter9.html#overview-5"><i class="fa fa-check"></i><b>9.1</b> Overview</a></li>
 <li class="chapter" data-level="9.2" data-path="chapter9.html"><a href="chapter9.html#learning-objectives-7"><i class="fa fa-check"></i><b>9.2</b> Learning Objectives</a></li>
-<li class="chapter" data-level="9.3" data-path="chapter9.html"><a href="chapter9.html#dataset-ideas"><i class="fa fa-check"></i><b>9.3</b> Dataset Ideas</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="chapter10.html"><a href="chapter10.html"><i class="fa fa-check"></i><b>10</b> Regression, continued</a><ul>
 <li class="chapter" data-level="10.1" data-path="chapter10.html"><a href="chapter10.html#overview-6"><i class="fa fa-check"></i><b>10.1</b> Overview</a></li>
@@ -191,24 +190,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </div>
 <div id="learning-objectives-7" class="section level2">
 <h2><span class="header-section-number">9.2</span> Learning Objectives</h2>
+<p>By the end of the chapter, students will be able to:</p>
 <ul>
-<li>Placeholder</li>
-</ul>
-</div>
-<div id="dataset-ideas" class="section level2">
-<h2><span class="header-section-number">9.3</span> Dataset Ideas</h2>
-<p><a href="https://archive.ics.uci.edu/ml/datasets.html?task=reg">UCI Regression Datasets</a></p>
-<p><a href="http://open.canada.ca/en/search/inventory?field_keywords_value=&amp;field_inventory_organization_tid=1720&amp;items_per_page=10">Conditional Release (Decisions) by Parole Board of Canada</a>. Students could investigate factors affecting parole hearing decisions. Data from one year (FY 2015-2016) contains ~22,000 rows and 19 columns. Factors include:</p>
-<ul>
-<li><strong>Final Decision</strong></li>
-<li>Decision Month</li>
-<li>Review Type</li>
-<li>Decision Type</li>
-<li>Sentence Type</li>
-<li>Jurisdiction</li>
-<li>Gender</li>
-<li>Race</li>
-<li>Major Offence Group</li>
+<li>Recognize situations where a simple regression analysis would be appropriate for making predictions.</li>
+<li>Explain the k-nearest neighbour (k-nn) regression algorithm and describe how it differs from k-nn classification.</li>
+<li>Interpret the output of a k-nn regression.</li>
+<li>In a dataset with two variables, perform k-nearest neighbour regression in R using <code>caret::knnregTrain()</code> to predict the values for a test dataset.</li>
+<li>Using R, execute cross-validation in R to choose the number of neighbours.</li>
+<li>Using R, evaluate classification accuracy using a test data set and an appropriate metric (e.g., means square prediction error).</li>
+<li>Describe advantages and disadvantages of the k-nearest neighbour regression approach.</li>
 </ul>
 
 </div>
